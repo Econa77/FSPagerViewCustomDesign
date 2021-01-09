@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "FSPagerView",
+        "repositoryURL": "https://github.com/Econa77/FSPagerView/",
+        "state": {
+          "branch": "feature/essy-custom-cell",
+          "revision": "a7d070675c3c54fa1157c0a7074ab85290c72b30",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

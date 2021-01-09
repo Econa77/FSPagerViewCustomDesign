@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		FAE1FAA725A993350059DC4D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1FAA525A993350059DC4D /* Main.storyboard */; };
 		FAE1FAA925A993370059DC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE1FAA825A993370059DC4D /* Assets.xcassets */; };
 		FAE1FAAC25A993370059DC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1FAAA25A993370059DC4D /* LaunchScreen.storyboard */; };
+		FAE1FAB725A993A90059DC4D /* FSPagerView in Frameworks */ = {isa = PBXBuildFile; productRef = FAE1FAB625A993A90059DC4D /* FSPagerView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAE1FAB725A993A90059DC4D /* FSPagerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = Demo;
+			packageProductDependencies = (
+				FAE1FAB625A993A90059DC4D /* FSPagerView */,
+			);
 			productName = Demo;
 			productReference = FAE1FA9C25A993350059DC4D /* Demo.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,9 @@
 				Base,
 			);
 			mainGroup = FAE1FA9325A993350059DC4D;
+			packageReferences = (
+				FAE1FAB525A993A90059DC4D /* XCRemoteSwiftPackageReference "FSPagerView" */,
+			);
 			productRefGroup = FAE1FA9D25A993350059DC4D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FAE1FAB525A993A90059DC4D /* XCRemoteSwiftPackageReference "FSPagerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Econa77/FSPagerView/";
+			requirement = {
+				branch = "feature/essy-custom-cell";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FAE1FAB625A993A90059DC4D /* FSPagerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FAE1FAB525A993A90059DC4D /* XCRemoteSwiftPackageReference "FSPagerView" */;
+			productName = FSPagerView;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FAE1FA9425A993350059DC4D /* Project object */;
 }
