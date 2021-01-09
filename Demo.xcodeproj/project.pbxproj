@@ -14,6 +14,8 @@
 		FAE1FAA925A993370059DC4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE1FAA825A993370059DC4D /* Assets.xcassets */; };
 		FAE1FAAC25A993370059DC4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE1FAAA25A993370059DC4D /* LaunchScreen.storyboard */; };
 		FAE1FAB725A993A90059DC4D /* FSPagerView in Frameworks */ = {isa = PBXBuildFile; productRef = FAE1FAB625A993A90059DC4D /* FSPagerView */; };
+		FAE1FABB25A9941C0059DC4D /* CustomDesignCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE1FAB925A9941C0059DC4D /* CustomDesignCollectionViewCell.swift */; };
+		FAE1FABC25A9941C0059DC4D /* CustomDesignCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAE1FABA25A9941C0059DC4D /* CustomDesignCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		FAE1FAA825A993370059DC4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE1FAAB25A993370059DC4D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE1FAAD25A993370059DC4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE1FAB925A9941C0059DC4D /* CustomDesignCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDesignCollectionViewCell.swift; sourceTree = "<group>"; };
+		FAE1FABA25A9941C0059DC4D /* CustomDesignCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDesignCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 				FAE1FA9F25A993350059DC4D /* AppDelegate.swift */,
 				FAE1FAA125A993350059DC4D /* SceneDelegate.swift */,
 				FAE1FAA325A993350059DC4D /* ViewController.swift */,
+				FAE1FAB925A9941C0059DC4D /* CustomDesignCollectionViewCell.swift */,
+				FAE1FABA25A9941C0059DC4D /* CustomDesignCollectionViewCell.xib */,
 				FAE1FAA525A993350059DC4D /* Main.storyboard */,
 				FAE1FAA825A993370059DC4D /* Assets.xcassets */,
 				FAE1FAAA25A993370059DC4D /* LaunchScreen.storyboard */,
@@ -135,6 +141,7 @@
 				FAE1FAAC25A993370059DC4D /* LaunchScreen.storyboard in Resources */,
 				FAE1FAA925A993370059DC4D /* Assets.xcassets in Resources */,
 				FAE1FAA725A993350059DC4D /* Main.storyboard in Resources */,
+				FAE1FABC25A9941C0059DC4D /* CustomDesignCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,6 +155,7 @@
 				FAE1FAA425A993350059DC4D /* ViewController.swift in Sources */,
 				FAE1FAA025A993350059DC4D /* AppDelegate.swift in Sources */,
 				FAE1FAA225A993350059DC4D /* SceneDelegate.swift in Sources */,
+				FAE1FABB25A9941C0059DC4D /* CustomDesignCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
